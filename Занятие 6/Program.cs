@@ -13,7 +13,7 @@ namespace Занятие_6
         {
             Console.WriteLine("Введите предложение:");
             string s = Console.ReadLine();
-            string[] array = s.Split(new Char[] { ' ', '.', ',', ';', ':', '!', '?' }, StringSplitOptions.RemoveEmptyEntries);
+            string[] array = s.Split(new Char[] {' '}, StringSplitOptions.RemoveEmptyEntries);
             int index = 0;
             int max = 0;
             for (int i = 0; i < array.Length; i++)
